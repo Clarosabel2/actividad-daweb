@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+    }
+    header{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .nav-news{
+        display: flex;
+        width: 75%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-news{
+        list-style-type: none;
+        list-style-position: initial;
+        display: flex;
+    }
+    .list-news li{
+        padding: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        
+    }
+
+    .nav-user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 20%;
+        gap: 10px;
+        position: absolute;
+        left: 80%;
+    }
+    .nav-user input{
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        box-shadow: 3px 3px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    main h1{
+        width: 100%;
+        text-align: center;
+        font-family: "Jacquard 24", system-ui;
+        font-size: 5rem;
+        font-weight: normal;
+    }
+    .divisas-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    main{
+        width: 100%;
+        position: relative;
+    }
+    .divisas-table, tr{
+        border: 1px solid #000;
+    }
+    .new-g{
+        padding-left: 10%;
+        width: 100%;
+        height: 60%;
+        display: flex;
+    }
+    .news-A{
+        width: 50%;
+    }
+    .news-otras{
+        width: 25%;
+        height: 100%;
+        max-height: 100%;
+    }
+</style>
+<body>
+    <header>
+        <nav class="nav-news">
+            <ul class="list-news">
+                <li>
+                    <a href="">Colombia</a>
+                </li>
+                <li>
+                    <a href="">España</a>
+                </li>
+                <li>
+                    <a href="">Mexico</a>
+                </li>
+                <li>
+                    <a href="">Peru</a>
+                </li>
+                <li>
+                    <a href="">Uruguay</a>
+                </li>
+                <li>
+                    <a href="">Tendencias</a>
+                </li>
+                <li>
+                    <a href="">Politica</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="nav-user">
+            <input type="button" value="Registarme">
+            <input type="button" value="Iniciar Sesion">
+        </nav>
+    </header>
+    <main>
+        <h1>News Pochingi</h1>
+        <section class="divisas">
+            <table class="divisas-table">
+                <tr>
+                    <td>Dolar Oficial</td>
+                    <td>Dolar Turista</td>
+                    <td>Dolar Blue</td>
+                    <td>Dolar MEP</td>
+                </tr>
+                <tr>
+                    <td>$888</td>
+                    <td>$960</td>
+                    <td>$1030</td>
+                    <td>$899</td>
+                </tr>
+                <tr>
+                    <td>┴</td>
+                    <td>┬</td>
+                    <td>┬</td>
+                    <td>┬</td>
+                </tr>
+            </table>
+        </section>
+        <section class="new-g">
+            <section class="news-A">
+                <h2>El impactante informe reservado que decidió al Gobierno a dejar de usar vuelos comerciales para el traslado de Milei</h2>
+                <p>Lo elaboró una dirección del Ministerio de Seguridad, a cargo de Patricia Bullrich. Advierte sobre los peligros que enfrentó el Presidente al viajar por aviones de línea. Menciona desde atentados, a riesgos frente a personas desequilibradas o incapacidad de responder a una emergencia</p>
+                <img src="https://www.infobae.com/new-resizer/qNdqSByq5a5MrnJ95NRTSQ5Kdtc=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/4NR7NHXBVFAJJLEA2TTIOIZC5Y.jpg" alt="Imagen Noticia">
+            </section>
+            <section class="news-otras">
+                <div>
+                    <h3>Más provincias analizan cobrarles a los extranjeros la atención en hospitales públicos</h3>
+                    <img src="https://www.infobae.com/new-resizer/ES3WctZgnXP05PfSN5-b0_Wl6tQ=/420x236/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/JSILAZL5HFD4TFJD2JGWC6P2GA.jpg" alt="Imagen Noticia">
+                </div>
+                <div>
+                    <h3>Tiene 61 años, pero luce de 38: el biohacker que reveló sus secretos para derrotar la vejez</h3>
+                    <img src="https://www.infobae.com/new-resizer/YtSkNPZU1CS-yu9bvrX8bhKkJzY=/420x236/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/E6CVNJZKMBBETEP76E2UTDJ7PE.jpg" alt="Imagen Noticia">
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
